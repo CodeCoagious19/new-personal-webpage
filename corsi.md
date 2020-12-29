@@ -41,7 +41,7 @@ permalink: /corsi/
           <p>Una raccolta di esempi pratici del padre di tutti i linguaggi di programmazione.</p>
         </div>
         <div class="action">
-          <a href="./cpp/cpp.html">Inizia</a>
+          <a href="../corso_cpp/Lezione01.html">Inizia</a>
         </div>
       </div>
   </div>

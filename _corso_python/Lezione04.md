@@ -1,7 +1,10 @@
 ---
 title: "Lezione 04"
 layout: corso
+name_collection: corso_python
 ---
+
+# Corso Python
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 

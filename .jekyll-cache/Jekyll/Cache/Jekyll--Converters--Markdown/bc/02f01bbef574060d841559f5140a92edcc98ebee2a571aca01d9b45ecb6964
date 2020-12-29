@@ -1,0 +1,76 @@
+I"ˆ<h1 id="corso-python">Corso Python</h1>
+
+<h2 id="aggiungere-collezioni-tramite-jekyll-e-liquid">Aggiungere collezioni tramite jekyll e liquid</h2>
+
+<ul>
+  <li>Stabilire il nome della collezione di file <code class="language-plaintext highlighter-rouge">.md</code> allâ€™interno di <code class="language-plaintext highlighter-rouge">_config.yml</code> ad esempio:</li>
+</ul>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">collections</span><span class="pi">:</span>
+  <span class="na">corso_python</span><span class="pi">:</span>
+    <span class="na">output</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Crea una cartella con il nome <code class="language-plaintext highlighter-rouge">_corso_python</code> e inserisci tutti i file <code class="language-plaintext highlighter-rouge">.md</code> della collezione.</p>
+
+<p>Per creare un loop automatico che legga questi file, utilizza nel tuo layout ad esempio potesti crarne uno nuovo, <code class="language-plaintext highlighter-rouge">corso.html</code> la seguente sintassi:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"side-bar"</span><span class="nt">&gt;</span>
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"active side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione01.html"</span><span class="nt">&gt;</span>Lezione 01<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione02.html"</span><span class="nt">&gt;</span>Lezione 02<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione03.html"</span><span class="nt">&gt;</span>Lezione 03<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione04.html"</span><span class="nt">&gt;</span>Lezione 04<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione05.html"</span><span class="nt">&gt;</span>Lezione 05<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione06.html"</span><span class="nt">&gt;</span>Lezione 06<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione07.html"</span><span class="nt">&gt;</span>Lezione 07<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione08.html"</span><span class="nt">&gt;</span>Lezione 08<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione09.html"</span><span class="nt">&gt;</span>Lezione 09<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione10.html"</span><span class="nt">&gt;</span>Lezione 10<span class="nt">&lt;/a&gt;</span>
+    
+    
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</p>
+
+<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</p>
+:ET

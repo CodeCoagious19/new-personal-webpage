@@ -7,15 +7,15 @@
 <meta property="og:title" content="Lezione 01" />
 <meta name="author" content="GitHub User" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Aggiungere collezioni tramite jekyll e liquid" />
-<meta property="og:description" content="Aggiungere collezioni tramite jekyll e liquid" />
+<meta name="description" content="Corso Python" />
+<meta property="og:description" content="Corso Python" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-12-29T11:44:26+01:00" />
+<meta property="article:published_time" content="2020-12-29T16:45:31+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lezione 01" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","description":"Aggiungere collezioni tramite jekyll e liquid","mainEntityOfPage":{"@type":"WebPage","@id":"/corso_python/Lezione01.html"},"url":"/corso_python/Lezione01.html","author":{"@type":"Person","name":"GitHub User"},"headline":"Lezione 01","dateModified":"2020-12-29T11:44:26+01:00","datePublished":"2020-12-29T11:44:26+01:00","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/corso_python/Lezione01.html"},"url":"/corso_python/Lezione01.html","author":{"@type":"Person","name":"GitHub User"},"headline":"Lezione 01","dateModified":"2020-12-29T16:45:31+01:00","datePublished":"2020-12-29T16:45:31+01:00","description":"Corso Python","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Your awesome title" />
 </head>
@@ -38,48 +38,48 @@
 
 <main class="page-content" aria-label="Content">
     <div class="wrapper-side-bar-content">
-    <div class="side-bar">
-      
+    <div class="side-bar">  
         
-          <a class="active side-bar-element" href="/corso_python/Lezione01.html">Lezione 01</a>
+          
+            <a class="active side-bar-element" href="/corso_python/Lezione01.html">Lezione 01</a>
+          
         
-      
+          
+            <a class="side-bar-element" href="/corso_python/Lezione02.html">Lezione 02</a>
+          
         
-          <a class="side-bar-element" href="/corso_python/Lezione02.html">Lezione 02</a>
+          
+            <a class="side-bar-element" href="/corso_python/Lezione03.html">Lezione 03</a>
+          
         
-      
+          
+            <a class="side-bar-element" href="/corso_python/Lezione04.html">Lezione 04</a>
+          
         
-          <a class="side-bar-element" href="/corso_python/Lezione03.html">Lezione 03</a>
+          
+            <a class="side-bar-element" href="/corso_python/Lezione05.html">Lezione 05</a>
+          
         
-      
+          
+            <a class="side-bar-element" href="/corso_python/Lezione06.html">Lezione 06</a>
+          
         
-          <a class="side-bar-element" href="/corso_python/Lezione04.html">Lezione 04</a>
+          
+            <a class="side-bar-element" href="/corso_python/Lezione07.html">Lezione 07</a>
+          
         
-      
+          
+            <a class="side-bar-element" href="/corso_python/Lezione08.html">Lezione 08</a>
+          
         
-          <a class="side-bar-element" href="/corso_python/Lezione05.html">Lezione 05</a>
+          
+            <a class="side-bar-element" href="/corso_python/Lezione09.html">Lezione 09</a>
+          
         
-      
+          
+            <a class="side-bar-element" href="/corso_python/Lezione10.html">Lezione 10</a>
+          
         
-          <a class="side-bar-element" href="/corso_python/Lezione06.html">Lezione 06</a>
-        
-      
-        
-          <a class="side-bar-element" href="/corso_python/Lezione07.html">Lezione 07</a>
-        
-      
-        
-          <a class="side-bar-element" href="/corso_python/Lezione08.html">Lezione 08</a>
-        
-      
-        
-          <a class="side-bar-element" href="/corso_python/Lezione09.html">Lezione 09</a>
-        
-      
-        
-          <a class="side-bar-element" href="/corso_python/Lezione10.html">Lezione 10</a>
-        
-      
     </div>
   <div class="content">
     <article class="post">
@@ -87,7 +87,9 @@
         <h1 class="post-title">Lezione 01</h1>
       </header>
       <div class="post-content">
-        <h2 id="aggiungere-collezioni-tramite-jekyll-e-liquid">Aggiungere collezioni tramite jekyll e liquid</h2>
+        <h1 id="corso-python">Corso Python</h1>
+
+<h2 id="aggiungere-collezioni-tramite-jekyll-e-liquid">Aggiungere collezioni tramite jekyll e liquid</h2>
 
 <ul>
   <li>Stabilire il nome della collezione di file <code class="language-plaintext highlighter-rouge">.md</code> all’interno di <code class="language-plaintext highlighter-rouge">_config.yml</code> ad esempio:</li>
@@ -102,49 +104,49 @@
 
 <p>Per creare un loop automatico che legga questi file, utilizza nel tuo layout ad esempio potesti crarne uno nuovo, <code class="language-plaintext highlighter-rouge">corso.html</code> la seguente sintassi:</p>
 
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="s">&lt;div class="side-bar"&gt;</span>
-      
-        
-          <span class="s">&lt;a class="active side-bar-element" href="/corso_python/Lezione01.html"&gt;Lezione 01&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione02.html"&gt;Lezione 02&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione03.html"&gt;Lezione 03&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione04.html"&gt;Lezione 04&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione05.html"&gt;Lezione 05&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione06.html"&gt;Lezione 06&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione07.html"&gt;Lezione 07&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione08.html"&gt;Lezione 08&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione09.html"&gt;Lezione 09&lt;/a&gt;</span>
-        
-      
-        
-          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione10.html"&gt;Lezione 10&lt;/a&gt;</span>
-        
-      
-    <span class="s">&lt;/div&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"side-bar"</span><span class="nt">&gt;</span>
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"active side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione01.html"</span><span class="nt">&gt;</span>Lezione 01<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione02.html"</span><span class="nt">&gt;</span>Lezione 02<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione03.html"</span><span class="nt">&gt;</span>Lezione 03<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione04.html"</span><span class="nt">&gt;</span>Lezione 04<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione05.html"</span><span class="nt">&gt;</span>Lezione 05<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione06.html"</span><span class="nt">&gt;</span>Lezione 06<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione07.html"</span><span class="nt">&gt;</span>Lezione 07<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione08.html"</span><span class="nt">&gt;</span>Lezione 08<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione09.html"</span><span class="nt">&gt;</span>Lezione 09<span class="nt">&lt;/a&gt;</span>
+    
+    
+    
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"side-bar-element"</span> <span class="na">href=</span><span class="s">"/corso_python/Lezione10.html"</span><span class="nt">&gt;</span>Lezione 10<span class="nt">&lt;/a&gt;</span>
+    
+    
+<span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
 
 <p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>

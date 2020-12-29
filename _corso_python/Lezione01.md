@@ -1,7 +1,10 @@
 ---
 title: "Lezione 01"
 layout: corso
+name_collection: corso_python
 ---
+
+# Corso Python
 
 ## Aggiungere collezioni tramite jekyll e liquid
 

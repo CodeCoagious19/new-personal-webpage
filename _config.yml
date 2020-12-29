@@ -65,4 +65,11 @@ plugins:
 
 collections:
   corso_python:
+    label: corso_python
+    name_collection: corso_python
     output: true
+  corso_cpp:
+    label: corso_cpp
+    name_collection: corso_cpp
+    output: true
+    
