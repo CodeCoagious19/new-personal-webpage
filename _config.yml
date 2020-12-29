@@ -64,5 +64,5 @@ plugins:
 
 
 collections:
-  staff_members:
+  corso_python:
     output: true

@@ -15,7 +15,7 @@ permalink: /corsi/
           <p>Corso completo di un linguaggio moderno, utile e versatile. Ottimo per iniziare</p>
         </div>
         <div class="action">
-          <a href="#">Inizia</a>
+          <a href="../corso_python/Lezione01.html">Inizia</a>
         </div>
       </div>
           <!-- Card layout -->

@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="wrapper-side-bar-content">
     <div class="side-bar">
-      {% for staff_member in site.staff_members %}
-        {% if page.url == staff_member.url %}
-          <a class="active side-bar-element" href="{{ staff_member.url }}">{{ staff_member.title }}</a>
+      {% for lesson in site.corso_python %}
+        {% if page.url == lesson.url %}
+          <a class="active side-bar-element" href="{{ lesson.url }}">{{ lesson.title }}</a>
         {% else %}
-          <a class="side-bar-element" href="{{ staff_member.url }}">{{ staff_member.title }}</a>
+          <a class="side-bar-element" href="{{ lesson.url }}">{{ lesson.title }}</a>
         {% endif %}
       {% endfor %}
     </div>

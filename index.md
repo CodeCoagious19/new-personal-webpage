@@ -8,7 +8,3 @@
 layout: home
 title: Home
 ---
-
-ciaoo
-
-[corsi]

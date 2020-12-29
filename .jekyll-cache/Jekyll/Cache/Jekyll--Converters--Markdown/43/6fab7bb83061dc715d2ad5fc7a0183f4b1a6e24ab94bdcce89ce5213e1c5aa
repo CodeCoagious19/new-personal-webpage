@@ -1,0 +1,74 @@
+I"<h2 id="aggiungere-collezioni-tramite-jekyll-e-liquid">Aggiungere collezioni tramite jekyll e liquid</h2>
+
+<ul>
+  <li>Stabilire il nome della collezione di file <code class="language-plaintext highlighter-rouge">.md</code> all’interno di <code class="language-plaintext highlighter-rouge">_config.yml</code> ad esempio:</li>
+</ul>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">collections</span><span class="pi">:</span>
+  <span class="na">corso_python</span><span class="pi">:</span>
+    <span class="na">output</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Crea una cartella con il nome <code class="language-plaintext highlighter-rouge">_corso_python</code> e inserisci tutti i file <code class="language-plaintext highlighter-rouge">.md</code> della collezione.</p>
+
+<p>Per creare un loop automatico che legga questi file, utilizza nel tuo layout ad esempio potesti crarne uno nuovo, <code class="language-plaintext highlighter-rouge">corso.html</code> la seguente sintassi:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="s">&lt;div class="side-bar"&gt;</span>
+      
+        
+          <span class="s">&lt;a class="active side-bar-element" href="/corso_python/Lezione01.html"&gt;Lezione 01&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione02.html"&gt;Lezione 02&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione03.html"&gt;Lezione 03&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione04.html"&gt;Lezione 04&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione05.html"&gt;Lezione 05&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione06.html"&gt;Lezione 06&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione07.html"&gt;Lezione 07&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione08.html"&gt;Lezione 08&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione09.html"&gt;Lezione 09&lt;/a&gt;</span>
+        
+      
+        
+          <span class="s">&lt;a class="side-bar-element" href="/corso_python/Lezione10.html"&gt;Lezione 10&lt;/a&gt;</span>
+        
+      
+    <span class="s">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</p>
+
+<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</p>
+:ET
